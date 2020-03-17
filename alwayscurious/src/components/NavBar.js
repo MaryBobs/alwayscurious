@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import {BrowserRouter, Route, Link, Switch} from 'react-router-dom';
+import About from './About';
+import Blog from './Blog';
+import Projects from './Projects';
 
 class NavBar extends Component {
 
@@ -6,13 +10,21 @@ class NavBar extends Component {
 
 render() {
     return (
-        <div>
-        <h2>MARY CUMMINGS</h2>
-        <p>HOME</p>
-        <p>ABOUT</p>
-        <p>BLOG</p>
-        <p>CONTACT</p>
+        <BrowserRouter>
+            <div>
+                <div className="NavBar">
+                <Link to="/" className="link">ABOUT</Link>
+                <Link to="/blog" className="link">BLOG</Link>
+                <Link to="/contact" className="link">PROJECTS</Link>
+
+                <Route exact path="/"></Route>
+                
+                <Route path="/about" component={About} />
+                <Route path="/blog" component={Blog} />
+                <Route path="/contact" component={Projects} />
+            </div>
         </div>
+        </BrowserRouter>
     )
 }
 }
