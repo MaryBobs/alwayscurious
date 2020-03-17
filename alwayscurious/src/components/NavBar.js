@@ -6,7 +6,13 @@ class NavBar extends Component {
 
 render() {
     return (
-        <h2>Nav Bar</h2>
+        <div>
+        <h2>MARY CUMMINGS</h2>
+        <p>HOME</p>
+        <p>ABOUT</p>
+        <p>BLOG</p>
+        <p>CONTACT</p>
+        </div>
     )
 }
 }

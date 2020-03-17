@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import BlogContainer from './BlogContainer';
-import NavBar from '../components/NavBar';
+// import BlogContainer from './BlogContainer';
+// import NavBar from '../components/NavBar';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+import About from '../components/About';
+import Blog from '../components/Blog';
+import Projects from '../components/Projects';
 
 class HomePageContainer extends Component {
     constructor(props) {
@@ -13,11 +17,21 @@ class HomePageContainer extends Component {
     
     render() {
         return (
-            <div>
-            <h1>Mary Cummings</h1>
-            <BlogContainer></BlogContainer>
-            <NavBar></NavBar>
+            <BrowserRouter>
+                <div className="HomePage">
+                    <Route path="/about" component={About} />
+                    <Route path="/blog" component={Blog} />
+                    <Route path="/projects" component={Projects} />
+
+            
+                    <div className="NavBar">
+                    <h2>MARY CUMMINGS</h2>
+                    <Link to="/about" className="link">ABOUT</Link>
+                    <Link to="/blog" className="link">BLOG</Link>
+                    <Link to="/projects" className="link">PROJECTS</Link>
+                </div>
             </div>
+            </BrowserRouter>
         )
     }
     }
