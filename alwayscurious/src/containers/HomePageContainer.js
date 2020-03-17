@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BlogContainer from './BlogContainer';
+import NavBar from '../components/NavBar';
 
 class HomePageContainer extends Component {
     constructor(props) {
@@ -8,12 +9,14 @@ class HomePageContainer extends Component {
 
             }
         }
+
     
     render() {
         return (
             <div>
             <h1>Mary Cummings</h1>
             <BlogContainer></BlogContainer>
+            <NavBar></NavBar>
             </div>
         )
     }
