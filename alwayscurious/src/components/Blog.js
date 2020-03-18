@@ -1,12 +1,13 @@
 import React from 'react';
-import beach from "../images/beach.JPG";
+import Beach from "../images/beach.JPG";
 
 function Blog(props) {
     return (
         <div>
-            <h2>Blog</h2>
-            <h5>Tuesday 17th March</h5>
-            <h5>Happy St Patricks Day!
+            <h2 className="title">Blog</h2>
+            <img src={Beach} className="image"/>
+            <h5 className="date">Tuesday 17th March</h5>
+            <h5 className="sub-title">Happy St Patricks Day!
                 What to do when you are an unemployed career changer looking for work
                  during a global pandemic that has closed down half the country!?!</h5>
                  <ul>
