@@ -18,7 +18,7 @@ class HomePageContainer extends Component {
     render() {
         return (
             <div>
-            <h2>MARY CUMMINGS</h2>
+            {/* <h2>MARY CUMMINGS</h2> */}
                <NavBar></NavBar>
                </div>
         )

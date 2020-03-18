@@ -51,9 +51,16 @@
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  color: blue;
-  background-color: aquamarine;
   border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.nav-name {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
   height: 100px;
   width: 100px;
 }
@@ -68,4 +75,33 @@
   display: inline;
   color: purple;
   font-size: 15px;
+}
+
+.hi {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: gold;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  right: 250px;
+}
+
+.greeting {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: slateblue;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  word-wrap: break-word;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  left: 250px;
 }

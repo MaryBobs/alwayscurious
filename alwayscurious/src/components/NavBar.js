@@ -17,9 +17,10 @@ render() {
             <div>
                 <div className="NavBar">
                     <div className="nav-block">
-                <Link to="/about" className="link"><img src={Duck} className="nav-image"/>ABOUT</Link>
-                <Link to="/blog" className="link"><img src={Beach} className="nav-image"/>BLOG</Link>
-                <Link to="/contact" className="link"><img src={Shore} className="nav-image"/>PROJECTS</Link>
+                        <h1 className="nav-name">MARY CUMMINGS</h1>
+                <Link to="/about" className="link"><img src={Duck} className="nav-image"/>:ABOUT</Link>
+                <Link to="/blog" className="link"><img src={Beach} className="nav-image"/>:BLOG</Link>
+                <Link to="/contact" className="link"><img src={Shore} className="nav-image"/>:PROJECTS</Link>
                 </div>
 
                 <Route exact path="/"></Route>
