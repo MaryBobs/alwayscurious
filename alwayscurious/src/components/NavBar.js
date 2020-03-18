@@ -13,7 +13,7 @@ render() {
         <BrowserRouter>
             <div>
                 <div className="NavBar">
-                <Link to="/" className="link">ABOUT</Link>
+                <Link to="/about" className="link">ABOUT</Link>
                 <Link to="/blog" className="link">BLOG</Link>
                 <Link to="/contact" className="link">PROJECTS</Link>
 

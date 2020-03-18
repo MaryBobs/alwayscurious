@@ -4,13 +4,13 @@ import Thumbnail from './Thumbnail.js';
 function Projects(props) {
     return (
         <div>
-            <h2>Projects</h2>
-            <Thumbnail
+            <h2>Coming Soon!</h2>
+            {/* <Thumbnail
             link=""
             image=""
             title=""
             category=""
-            />
+            /> */}
 
         </div>
     )
