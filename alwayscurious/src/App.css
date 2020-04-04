@@ -70,13 +70,13 @@ body {
 
 .date {
   display: inline;
-  color: green;
+  color: white;
   font-size: 20px;
 }
 
 .sub-title {
   display: inline;
-  color: purple;
+  color: white;
   font-size: 15px;
 }
 
